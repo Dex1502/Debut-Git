@@ -5,16 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="fonts/stylesheet.css" />
   </head>
 
   <body>
     <?php include "include/header.html" ?>
-      <div class="Decorate">
-        <let>B</let>
-        <let>U</let>
-      </div>
+    <div class="Decorate">
+      <let>B</let>
+      <let>U</let>
+    </div>
     <main>
       <section class="MainSection">
         <h1><span class="Sloop">D</span>ebut — мир стиля <br> <span class="Gray">и нового общества</span></h1>
@@ -67,9 +66,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -77,9 +76,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -87,9 +86,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -97,9 +96,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -107,9 +106,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -117,9 +116,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -127,9 +126,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -137,9 +136,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -147,9 +146,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -157,9 +156,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -167,9 +166,9 @@
             </div>
           </div>
           <div class="Catalog-Card">
-            <div class="FavIcon">
+            <button class="FavIcon">
               <img src="img/CardHeart.svg">
-            </div>
+            </button>
             <img src="img/Catalog.png">
             <div>
               <p><span>Брюки</span><br>6 490 р</p>
@@ -182,4 +181,9 @@
     </main>
     <?php include "include/footer.html" ?>
   </body>
+  <style>
+    header > nav li:first-child a{
+      text-decoration: underline;
+    }
+  </style>
 </html>
