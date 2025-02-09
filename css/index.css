@@ -1,0 +1,160 @@
+/* СЕКЦИИ ГЛАВНАЯ*/
+
+.Decorate{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Decorate-1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0px;
+    padding-right: 440px;
+}
+
+let{
+    font-size: 650px;
+    font-family: 'Sloop';
+    color: rgba(23, 23, 23, 0.02);
+    z-index: -1;
+    line-height: 1.1;
+}
+
+.Decorate-1 let{
+    line-height: 0.5;
+}
+
+.MainSection p{
+    width: 840px;
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.MainSection .MainButton{
+    margin: auto;
+}
+
+
+
+.PhotosSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+}
+
+.PhotoContainer-1 p{
+    width: 540px;
+}
+
+.PhotoContainer-2 p{
+    width: 290px;
+}
+
+.PhotosSection p{
+    margin-top: 20px;
+}
+
+.PhotosSection p::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background: #000;
+    margin-bottom: 4px;
+}
+
+
+.CatalogSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.Catalog-Header{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.Catalog-Header select{
+    background: #F6F6F6;
+    padding: 10px 20px;
+}
+
+.Catalog-Header > div{
+    display: flex;
+    gap:100px;
+    align-items: center;
+}
+
+.Catalog-Header > div div{
+    display: flex;
+    gap:20px;
+}
+
+.Catalog-Header button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Catalog-Header .Active{
+    opacity: 0.4;
+}
+
+.Catalog{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.Catalog-Card{
+    position: relative;
+}
+
+.Catalog-Card p{
+    line-height: 2;
+    font-weight: 500;
+}
+
+.Catalog-Card span{
+    font-size: 14px;
+    font-family: "Mont";
+}
+
+.Catalog-Card > div:not(.FavIcon){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#LoadMore{
+    color: #A2A2A2;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #171717;
+    padding: 12px 30px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.FavIcon{
+    background: #fff;
+    border-radius: 100px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

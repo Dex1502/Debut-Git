@@ -1,0 +1,213 @@
+/* ОБЩИЕ */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "TT Hoves";
+    border: none;
+    background: none;
+}
+
+main{
+    width: 1530px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+section{
+    margin-bottom: 150px;
+}
+
+li{
+    list-style: none;
+}
+
+a, h1, p, h2{
+    color:rgba(23, 23, 23, 1);
+}
+
+a{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+}
+
+body{
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 0.6;
+    text-align: center;
+}
+
+.Sloop{
+    font-family: "Sloop";
+    margin-right: 5px;
+}
+
+.Gray{
+    color: rgba(162, 162, 162, 1);
+}
+
+h2{
+    font-size: 80px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 0.4;
+}
+
+h2 .Sloop{
+    font-size: 130px;
+}
+
+.MainButton{
+    border-radius: 20px;
+    background: rgba(23, 23, 23, 1);
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+    cursor: pointer;
+}
+
+.MainButton div{
+    border-radius: 15px;
+    background: #fff;
+    padding: 15px 13px;
+}
+
+
+
+
+
+/* ХЕДЕР */
+header{
+    width: 1530px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid rgba(162, 162, 162, 0.2);
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+header *{
+    font-family: "Mont";
+}
+
+.Header-Right{
+    display: flex;
+    gap:200px;
+}
+
+.Header-Icons{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+header .Active{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* ФУТЕР */
+footer{
+    background: rgba(23, 23, 23, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.FooterContainer{
+    width: 1530px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px 50px 0px;
+}
+
+logo{
+    color:#fff;
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+footer p{
+    color: #D6D6D6;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.FooterEl-3 a{
+    color: #F6F6F6;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.FooterEl-1{
+    margin: 35px 0px 60px 0px;
+}
+
+.FooterEl-3{
+    margin: 30px 0px;
+    display: flex;
+    gap:30px;
+}
+
+.FooterEl-3 span{
+    color: #D6D6D6;
+    opacity: 0.5;
+}
+
+h3{
+    color: #F6F6F6;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.FooterEl-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FooterEl-5 a, .FooterEl-6 a{
+    color: #D6D6D6;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.FooterEl-5 p{
+    text-transform: uppercase;
+    color: #F6F6F6;
+    opacity: 1;
+}
+
+
+
+
+
