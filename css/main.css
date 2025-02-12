@@ -372,6 +372,71 @@ h3{
 }
 
 
+@media (max-width:1550px){
+    header, main, .FooterContainer {
+        width: 1280px;
+    }
+
+    .PhotoContainer-1 img{
+        width: 480px;
+    }
+
+    .PhotoContainer-2 img{
+        width: 620px;
+    }
+
+    .Catalog-Card{
+        width: 400px;
+    }
+
+    .Catalog-Card img{
+        width: 100%;
+    }
+
+    .Catalog {
+        gap: 0px;
+        justify-content: space-between;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:1300px){
+    header, main, .FooterContainer {
+        width: 980px;
+    }
+
+    .PhotoContainer-1 img{
+        width: 400px;
+    }
+
+    .PhotoContainer-2 img{
+        width: 480px;
+    }
+
+    .Catalog-Card{
+        width: 300px;
+    }
+
+    .PhotoContainer-1 p {
+        width: 360px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    .Catalog-Header > div{
+        gap: 30px;
+    }
+
+    h2 .Sloop {
+        font-size: 90px;
+    }
+    
+    
+}
+
+
 
 
 
