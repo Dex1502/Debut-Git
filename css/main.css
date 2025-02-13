@@ -336,6 +336,12 @@ footer p{
     margin: 30px 0px;
     display: flex;
     gap:30px;
+    align-items: center;
+}
+
+.FooterEl-3 div{
+    display: flex;
+    align-items: center;
 }
 
 .FooterEl-3 span{
@@ -402,7 +408,7 @@ h3{
 
 @media (max-width:1300px){
     header, main, .FooterContainer {
-        width: 980px;
+        width: 960px;
     }
 
     .PhotoContainer-1 img{
@@ -434,6 +440,162 @@ h3{
     }
     
     
+}
+
+@media (max-width:980px){
+    header, main, .FooterContainer {
+        width: 620px;
+    }
+
+    h1{
+        font-size: 65px;
+    }
+
+    section {
+        margin-bottom: 100px;
+    }
+
+    .Header-Right {
+        gap: 100px;
+    }
+
+    .MainSection p {
+        width: 500px !important;
+    }
+
+    let{
+        font-size: 500px;
+    }
+
+    .PhotosSection {
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .Catalog-Header {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .Catalog-Header > div {
+        flex-direction: column;
+    }
+
+    .Catalog-Header select {
+        margin-left: auto;
+    }
+
+    .FooterEl-3 a {
+        font-size: 10px;
+    }
+
+    .FooterEl-3{  
+        gap:10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    
+}
+
+@media (max-width:640px){
+    header, main, .FooterContainer {
+        width: 380px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    
+    a{
+        font-size: 12px;
+    }
+
+    .Header-Right {
+        gap: 20px;
+    }
+    
+    .MainSection p {
+        width: 320px !important;
+    }
+
+    .Header-Icons {
+        gap: 10px;
+    }
+
+    .PhotoContainer-1 img {
+        width: 320px;
+    }
+
+    .PhotoContainer-1 p {
+        width: 300px;
+    }
+
+    .PhotoContainer-2 img {
+        width: 380px;
+    }
+    
+    .Catalog-Card{
+        width: 380px;
+    }
+
+    .Catalog{
+        justify-content: center;
+    }
+
+    .MainButton {
+        font-size: 15px;
+        padding: 5px 10px 5px 20px;
+        border-radius: 15px;
+    }
+
+    .MainButton div {
+        border-radius: 12px;
+        padding: 11px 11px;
+    }
+
+    .FooterContainer{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap:35px;
+    }
+
+    .FooterContainer > *{
+        width: 200px;
+    }
+
+    h3{
+        margin-bottom: 15px;
+    }
+
+    .FooterEl-1 {
+        margin: 20px 0px 25px 0px;
+    }
+
+    .FooterEl-3{
+        margin: 20px 0px;
+    }
+
+    let{
+        font-size: 230px;
+    }
+
+    .Decorate-1 {
+        bottom: -53px;
+        padding-right: 352px;
+    }
+    
+    
+
 }
 
 

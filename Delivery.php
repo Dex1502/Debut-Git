@@ -68,5 +68,51 @@
     .Header-Right nav li:first-child a{
       text-decoration: underline;
     }
+
+    @media (max-width:1550px){
+    .PhotoContainer-1 img{
+        width: 250px;
+    }
+
+    .PhotoContainer-2 img{
+        width: 480px;
+    }
+
+    .PhotoContainer-3 img{
+        width: 250px;
+    }
+
+    .PhotoContainer-1 p {
+        width: 240px;
+    }
+  }
+
+  @media (max-width:1300px){
+    .PhotoContainer-1 img{
+        width: 220px;
+    }
+
+    .PhotoContainer-2 img{
+        width: 380px;
+    }
+
+    .PhotoContainer-3 img{
+        width: 220px;
+    }
+
+    .PhotoContainer-1 p {
+        width: 210px;
+    }
+
+    .PhotoContainer-2 p {
+        width: 360px;
+    }
+  }
+
+  @media (max-width:980px){
+    .PhotoContainer-3 {
+        padding-top: 0px;
+    }
+  }
   </style>
 </html>
